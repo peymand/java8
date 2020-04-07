@@ -1,3 +1,13 @@
-# java8
+# Java 8 new features
 
-this is repository which is about java 8 new features such as lambda, stream and new datetime api.
+
+## Setup
+### Requirements
+* Should use Java 8 or higher. Previous versions of Java are un-tested.
+* Use Maven 3.5.2 or higher
+
+## Support
+For questions and help:
+* Please send me email
+
+GitHub Issues will not be addressed.
