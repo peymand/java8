@@ -15,5 +15,10 @@ public class IntStreamOperations {
 
         //count, min, max, sum and avg of the values
 
+        System.out.printf("%nCount: %d%n", IntStream.of(values).count());
+        System.out.printf("Min: %d%n",IntStream.of(values).min().getAsInt());
+        System.out.printf("Max: %d%n",IntStream.of(values).max().getAsInt());
+        System.out.printf("Sum: %d%n",IntStream.of(values).sum());
+        System.out.printf("Average: %.2f%n",IntStream.of(values).average().getAsDouble());
     }
 }
