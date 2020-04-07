@@ -1,0 +1,30 @@
+functional interface
+Package java.util.function has six basic generic functional interfaces
+    BinaryOperator<T>
+    Consumer<T>
+    Function<T,R>
+    Predicate<T>
+    Supplier<T>
+    UnaryOperator<T>
+
+Syntax of Lambda Expression
+
+Streams
+    Stream pipeLine
+        Move elements through a sequence of processing steps
+        begins with a datasource, performs various intermediate operations on the ds's elements and ends with a terminal operation
+        formed by chaining method calls
+        Don't have their own storage
+
+
+
+
+
+
+
+
+
+
+
+
+
