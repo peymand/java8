@@ -16,7 +16,7 @@ public class ArraysAndStream2 {
         Arrays.stream(strings).filter(s->s.compareToIgnoreCase("m")>0)
                 .sorted(String.CASE_INSENSITIVE_ORDER)
                 .collect(Collectors.toList());
-        //strings greater than 'm' sorted descending
+        //strings greater than 'm' sorted de1scending
         Arrays.stream(strings).filter(s->s.compareToIgnoreCase("m")>0)
                 .sorted(String.CASE_INSENSITIVE_ORDER.reversed())
                 .collect(Collectors.toList());
