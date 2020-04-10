@@ -1,0 +1,10 @@
+This guide teaches you how to work with Java 8 streams and how to use the different kind of available stream operations.
+You'll learn about the processing order and how the ordering of stream operations affect runtime performance.
+The more powerful stream operations reduce, collect and flatMap are covered in detail.
+The tutorial ends with an in-depth look at parallel streams.
+Stream operations are either intermediate or terminal.
+Intermediate operations return a stream so we can chain multiple intermediate operations without using semicolons.
+Terminal operations are either void or return a non-stream result.
+In the above example filter, map and sorted are intermediate operations whereas forEach is a terminal operation.
+For a full list of all available stream operations see the Stream Javadoc.
+Such a chain of stream operations as seen in the example above is also known as operation pipeline.
